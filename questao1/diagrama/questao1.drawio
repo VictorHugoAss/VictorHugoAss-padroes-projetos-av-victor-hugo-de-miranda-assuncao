@@ -1,0 +1,616 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="questao1" name="Questão 1">
+    <mxGraphModel dx="1483" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2578" pageHeight="2500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ambiente" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="522.25" width="707.04" x="858" y="758.9" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_fundo" connectable="0" parent="Ambiente" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="522.25" width="707.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_nome" connectable="0" parent="Ambiente" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Ambiente&#xa;Recursos do ambiente" vertex="1">
+          <mxGeometry height="40" width="707.04" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m0" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-nome : String" vertex="1">
+          <mxGeometry height="24" width="707.04" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m1" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-provedor : String" vertex="1">
+          <mxGeometry height="24" width="707.04" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m2" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-regiao : String" vertex="1">
+          <mxGeometry height="24" width="707.04" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m3" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-maquinas : List&lt;MaquinaVirtual&gt;" vertex="1">
+          <mxGeometry height="24" width="707.04" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m4" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-armazenamento : Armazenamento" vertex="1">
+          <mxGeometry height="24" width="707.04" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m5" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-fila : Fila" vertex="1">
+          <mxGeometry height="24" width="707.04" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m6" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-custoMensal : double" vertex="1">
+          <mxGeometry height="24" width="707.04" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_separador" connectable="0" parent="Ambiente" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="707.04" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m7" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~Ambiente(String, String, String, List&lt;MaquinaVirtual&gt;, Armazenamento, Fila, double)" vertex="1">
+          <mxGeometry height="24" width="707.04" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m8" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getMaquinas() : List&lt;MaquinaVirtual&gt;" vertex="1">
+          <mxGeometry height="24" width="707.04" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m9" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getArmazenamento() : Armazenamento" vertex="1">
+          <mxGeometry height="24" width="707.04" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m10" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getFila() : Fila" vertex="1">
+          <mxGeometry height="24" width="707.04" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m11" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoMensal() : double" vertex="1">
+          <mxGeometry height="24" width="707.04" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="Ambiente_m12" connectable="0" parent="Ambiente" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+imprimirResumo() : void" vertex="1">
+          <mxGeometry height="24" width="707.04" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="205.28" width="205.3" x="1131" y="1583.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento_fundo" connectable="0" parent="Armazenamento" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="205.28" width="205.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento_nome" connectable="0" parent="Armazenamento" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="«interface»&#xa;Armazenamento&#xa;Produto abstrato" vertex="1">
+          <mxGeometry height="52" width="205.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento_m0" connectable="0" parent="Armazenamento" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="205.3" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento_m1" connectable="0" parent="Armazenamento" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="205.3" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Armazenamento_m2" connectable="0" parent="Armazenamento" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="205.3" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="240.67" x="637.65" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_fundo" connectable="0" parent="ArmazenamentoAws" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="240.67" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_nome" connectable="0" parent="ArmazenamentoAws" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="ArmazenamentoAws&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="240.67" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m0" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="240.67" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m1" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="240.67" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_separador" connectable="0" parent="ArmazenamentoAws" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="240.67" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m2" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~ArmazenamentoAws(long)" vertex="1">
+          <mxGeometry height="24" width="240.67" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m3" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="240.67" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m4" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="240.67" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAws_m5" connectable="0" parent="ArmazenamentoAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="240.67" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="253.84" x="1593.15" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_fundo" connectable="0" parent="ArmazenamentoAzure" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="253.84" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_nome" connectable="0" parent="ArmazenamentoAzure" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="ArmazenamentoAzure&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="253.84" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m0" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="253.84" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m1" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="253.84" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_separador" connectable="0" parent="ArmazenamentoAzure" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="253.84" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m2" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~ArmazenamentoAzure(long)" vertex="1">
+          <mxGeometry height="24" width="253.84" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m3" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="253.84" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m4" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="253.84" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="ArmazenamentoAzure_m5" connectable="0" parent="ArmazenamentoAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="253.84" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="332.07" width="374.17" x="1649.7" y="854.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_fundo" connectable="0" parent="Auditoria" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="332.07" width="374.17" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_nome" connectable="0" parent="Auditoria" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Auditoria&#xa;Singleton" vertex="1">
+          <mxGeometry height="40" width="374.17" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m0" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-INSTANCIA : Auditoria" vertex="1">
+          <mxGeometry height="24" width="374.17" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m1" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-registros : List&lt;String&gt;" vertex="1">
+          <mxGeometry height="24" width="374.17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_separador" connectable="0" parent="Auditoria" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="374.17" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m2" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-Auditoria()" vertex="1">
+          <mxGeometry height="24" width="374.17" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m3" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getInstance() : Auditoria" vertex="1">
+          <mxGeometry height="24" width="374.17" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m4" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+registrar(String, String, String, String) : void" vertex="1">
+          <mxGeometry height="24" width="374.17" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m5" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getRegistros() : List&lt;String&gt;" vertex="1">
+          <mxGeometry height="24" width="374.17" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="Auditoria_m6" connectable="0" parent="Auditoria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+imprimirHistorico() : void" vertex="1">
+          <mxGeometry height="24" width="374.17" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="332.07" width="282.17" x="2109.25" y="854.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_fundo" connectable="0" parent="Configuracao" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="332.07" width="282.17" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_nome" connectable="0" parent="Configuracao" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Configuracao&#xa;Singleton" vertex="1">
+          <mxGeometry height="40" width="282.17" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m0" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-INSTANCIA : Configuracao" vertex="1">
+          <mxGeometry height="24" width="282.17" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m1" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-regiao : String" vertex="1">
+          <mxGeometry height="24" width="282.17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m2" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-orcamentoMensal : double" vertex="1">
+          <mxGeometry height="24" width="282.17" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_separador" connectable="0" parent="Configuracao" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="282.17" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m3" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-Configuracao()" vertex="1">
+          <mxGeometry height="24" width="282.17" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m4" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getInstance() : Configuracao" vertex="1">
+          <mxGeometry height="24" width="282.17" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m5" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getRegiao() : String" vertex="1">
+          <mxGeometry height="24" width="282.17" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="Configuracao_m6" connectable="0" parent="Configuracao" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getOrcamentoMensal() : double" vertex="1">
+          <mxGeometry height="24" width="282.17" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="522.25" width="355.97" x="61.1" y="1424.9" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_fundo" connectable="0" parent="FabricaAws" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="522.25" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_nome" connectable="0" parent="FabricaAws" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FabricaAws&#xa;Fábrica concreta" vertex="1">
+          <mxGeometry height="40" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m0" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-maquinas : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m1" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-armazenamentos : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m2" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-filas : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_separador" connectable="0" parent="FabricaAws" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="355.97" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m3" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getNomeProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="355.97" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m4" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHoraMaquina() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m5" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m6" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoFila() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m7" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarMaquina() : MaquinaVirtual" vertex="1">
+          <mxGeometry height="24" width="355.97" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m8" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarArmazenamento() : Armazenamento" vertex="1">
+          <mxGeometry height="24" width="355.97" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m9" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarFila() : Fila" vertex="1">
+          <mxGeometry height="24" width="355.97" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m10" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximaMaquina() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m11" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximoArmazenamento() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAws_m12" connectable="0" parent="FabricaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximaFila() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="522.25" width="355.97" x="1420.9" y="1424.9" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_fundo" connectable="0" parent="FabricaAzure" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="522.25" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_nome" connectable="0" parent="FabricaAzure" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FabricaAzure&#xa;Fábrica concreta" vertex="1">
+          <mxGeometry height="40" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m0" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-maquinas : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m1" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-armazenamentos : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m2" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-filas : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_separador" connectable="0" parent="FabricaAzure" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="355.97" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m3" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getNomeProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="355.97" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m4" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHoraMaquina() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m5" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m6" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoFila() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m7" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarMaquina() : MaquinaVirtual" vertex="1">
+          <mxGeometry height="24" width="355.97" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m8" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarArmazenamento() : Armazenamento" vertex="1">
+          <mxGeometry height="24" width="355.97" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m9" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarFila() : Fila" vertex="1">
+          <mxGeometry height="24" width="355.97" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m10" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximaMaquina() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m11" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximoArmazenamento() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaAzure_m12" connectable="0" parent="FabricaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-proximaFila() : long" vertex="1">
+          <mxGeometry height="24" width="355.97" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="332.07" width="355.97" x="417.3" y="854.3" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_fundo" connectable="0" parent="FabricaRecursos" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="332.07" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_nome" connectable="0" parent="FabricaRecursos" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="«interface»&#xa;FabricaRecursos&#xa;Fábrica abstrata" vertex="1">
+          <mxGeometry height="52" width="355.97" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m0" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getNomeProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="355.97" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m1" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHoraMaquina() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m2" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoGb() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m3" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoFila() : double" vertex="1">
+          <mxGeometry height="24" width="355.97" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m4" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarMaquina() : MaquinaVirtual" vertex="1">
+          <mxGeometry height="24" width="355.97" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m5" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarArmazenamento() : Armazenamento" vertex="1">
+          <mxGeometry height="24" width="355.97" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaRecursos_m6" connectable="0" parent="FabricaRecursos" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarFila() : Fila" vertex="1">
+          <mxGeometry height="24" width="355.97" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="205.28" width="239.69" x="807.3" y="1583.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila_fundo" connectable="0" parent="Fila" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="205.28" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila_nome" connectable="0" parent="Fila" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="«interface»&#xa;Fila&#xa;Produto abstrato" vertex="1">
+          <mxGeometry height="52" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila_m0" connectable="0" parent="Fila" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila_m1" connectable="0" parent="Fila" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fila_m2" connectable="0" parent="Fila" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoMensal() : double" vertex="1">
+          <mxGeometry height="24" width="239.69" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="239.69" x="313.3" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_fundo" connectable="0" parent="FilaAws" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_nome" connectable="0" parent="FilaAws" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FilaAws&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m0" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="239.69" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m1" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_separador" connectable="0" parent="FilaAws" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="239.69" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m2" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~FilaAws(long)" vertex="1">
+          <mxGeometry height="24" width="239.69" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m3" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m4" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAws_m5" connectable="0" parent="FilaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoMensal() : double" vertex="1">
+          <mxGeometry height="24" width="239.69" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="239.69" x="1268.8" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_fundo" connectable="0" parent="FilaAzure" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_nome" connectable="0" parent="FilaAzure" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FilaAzure&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="239.69" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m0" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="239.69" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m1" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_separador" connectable="0" parent="FilaAzure" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="239.69" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m2" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~FilaAzure(long)" vertex="1">
+          <mxGeometry height="24" width="239.69" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m3" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m4" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="239.69" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="FilaAzure_m5" connectable="0" parent="FilaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoMensal() : double" vertex="1">
+          <mxGeometry height="24" width="239.69" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="Main" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="141.89" width="184.01" x="1805.7" y="91.1" as="geometry" />
+        </mxCell>
+        <mxCell id="Main_fundo" connectable="0" parent="Main" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="141.89" width="184.01" as="geometry" />
+        </mxCell>
+        <mxCell id="Main_nome" connectable="0" parent="Main" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Main&#xa;Cliente" vertex="1">
+          <mxGeometry height="40" width="184.01" as="geometry" />
+        </mxCell>
+        <mxCell id="Main_m0" connectable="0" parent="Main" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+main(String[]) : void" vertex="1">
+          <mxGeometry height="24" width="184.01" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="220.47" x="7.8" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_fundo" connectable="0" parent="MaquinaAws" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_nome" connectable="0" parent="MaquinaAws" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="MaquinaAws&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m0" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="220.47" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m1" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_separador" connectable="0" parent="MaquinaAws" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="220.47" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m2" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~MaquinaAws(long)" vertex="1">
+          <mxGeometry height="24" width="220.47" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m3" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m4" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAws_m5" connectable="0" parent="MaquinaAws" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHora() : double" vertex="1">
+          <mxGeometry height="24" width="220.47" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="300.38" width="220.47" x="963.3" y="2090.9" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_fundo" connectable="0" parent="MaquinaAzure" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="300.38" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_nome" connectable="0" parent="MaquinaAzure" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="MaquinaAzure&#xa;Produto concreto" vertex="1">
+          <mxGeometry height="40" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m0" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+CUSTO : double" vertex="1">
+          <mxGeometry height="24" width="220.47" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m1" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-id : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_separador" connectable="0" parent="MaquinaAzure" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="220.47" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m2" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~MaquinaAzure(long)" vertex="1">
+          <mxGeometry height="24" width="220.47" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m3" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m4" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaAzure_m5" connectable="0" parent="MaquinaAzure" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHora() : double" vertex="1">
+          <mxGeometry height="24" width="220.47" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="205.28" width="220.47" x="501.8" y="1583.3" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual_fundo" connectable="0" parent="MaquinaVirtual" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="205.28" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual_nome" connectable="0" parent="MaquinaVirtual" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="«interface»&#xa;MaquinaVirtual&#xa;Produto abstrato" vertex="1">
+          <mxGeometry height="52" width="220.47" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual_m0" connectable="0" parent="MaquinaVirtual" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getId() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual_m1" connectable="0" parent="MaquinaVirtual" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getProvedor() : String" vertex="1">
+          <mxGeometry height="24" width="220.47" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaquinaVirtual_m2" connectable="0" parent="MaquinaVirtual" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCustoHora() : double" vertex="1">
+          <mxGeometry height="24" width="220.47" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="236.98" width="325.64" x="1445.6" y="377.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_fundo" connectable="0" parent="Provisionador" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="236.98" width="325.64" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_nome" connectable="0" parent="Provisionador" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Provisionador&#xa;Cliente" vertex="1">
+          <mxGeometry height="40" width="325.64" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_m0" connectable="0" parent="Provisionador" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=4;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-HORAS_MENSAIS : int" vertex="1">
+          <mxGeometry height="24" width="325.64" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_m1" connectable="0" parent="Provisionador" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-fabrica : FabricaRecursos" vertex="1">
+          <mxGeometry height="24" width="325.64" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_separador" connectable="0" parent="Provisionador" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="325.64" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_m2" connectable="0" parent="Provisionador" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+Provisionador(FabricaRecursos)" vertex="1">
+          <mxGeometry height="24" width="325.64" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Provisionador_m3" connectable="0" parent="Provisionador" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+provisionar(String, int, int) : Ambiente" vertex="1">
+          <mxGeometry height="24" width="325.64" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_0" edge="1" parent="1" source="MaquinaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.12465;exitPerimeter=1;entryX=0.21242;entryY=1.00000;entryPerimeter=1;curved=0;" target="MaquinaVirtual" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_1" edge="1" parent="1" source="MaquinaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.13525;exitPerimeter=1;entryX=0.79649;entryY=1.00000;entryPerimeter=1;curved=0;" target="MaquinaVirtual" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_2" edge="1" parent="1" source="ArmazenamentoAws" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.12547;exitPerimeter=1;entryX=0.20269;entryY=1.00000;entryPerimeter=1;curved=0;" target="Armazenamento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_3" edge="1" parent="1" source="ArmazenamentoAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.12477;exitPerimeter=1;entryX=0.79395;entryY=1.00000;entryPerimeter=1;curved=0;" target="Armazenamento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_4" edge="1" parent="1" source="FilaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.99949;exitY=0.12658;exitPerimeter=1;entryX=0.20918;entryY=1.00000;entryPerimeter=1;curved=0;" target="Fila" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_5" edge="1" parent="1" source="FilaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.12690;exitPerimeter=1;entryX=0.79356;entryY=1.00000;entryPerimeter=1;curved=0;" target="Fila" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_6" edge="1" parent="1" source="FabricaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.89189;exitY=0.00000;exitPerimeter=1;entryX=0.21243;entryY=1.00000;entryPerimeter=1;curved=0;" target="FabricaRecursos" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_7" edge="1" parent="1" source="FabricaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.06330;exitPerimeter=1;entryX=0.87732;entryY=1.00000;entryPerimeter=1;curved=0;" target="FabricaRecursos" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_8" edge="1" parent="1" source="FabricaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.34045;exitY=1.00000;exitPerimeter=1;entryX=0.65754;entryY=0.00000;entryPerimeter=1;curved=0;" target="MaquinaAws" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_9" edge="1" parent="1" source="FabricaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.91176;exitPerimeter=1;entryX=0.00000;entryY=0.10230;entryPerimeter=1;curved=0;" target="ArmazenamentoAws" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_10" edge="1" parent="1" source="FabricaAws" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.75646;exitY=1.00000;exitPerimeter=1;entryX=0.26936;entryY=0.00000;entryPerimeter=1;curved=0;" target="FilaAws" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_11" edge="1" parent="1" source="FabricaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.91098;exitPerimeter=1;entryX=1.00000;entryY=0.11585;entryPerimeter=1;curved=0;" target="MaquinaAzure" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_12" edge="1" parent="1" source="FabricaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.66020;exitY=1.00000;exitPerimeter=1;entryX=0.36356;entryY=0.00000;entryPerimeter=1;curved=0;" target="ArmazenamentoAzure" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_13" edge="1" parent="1" source="FabricaAzure" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.22184;exitY=1.00000;exitPerimeter=1;entryX=0.74841;entryY=0.00000;entryPerimeter=1;curved=0;" target="FilaAzure" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_14" edge="1" parent="1" source="FabricaRecursos" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.51212;exitY=0.99976;exitPerimeter=1;entryX=0.48850;entryY=0.00000;entryPerimeter=1;curved=0;" target="MaquinaVirtual" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_15" edge="1" parent="1" source="FabricaRecursos" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.85010;exitY=0.99908;exitPerimeter=1;entryX=0.27390;entryY=0.00000;entryPerimeter=1;curved=0;" target="Armazenamento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_16" edge="1" parent="1" source="FabricaRecursos" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.73172;exitY=0.99976;exitPerimeter=1;entryX=0.27292;entryY=0.00000;entryPerimeter=1;curved=0;" target="Fila" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_17" edge="1" parent="1" source="Provisionador" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.60251;exitPerimeter=1;entryX=0.84762;entryY=0.00000;entryPerimeter=1;curved=0;" target="FabricaRecursos" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_18" edge="1" parent="1" source="Provisionador" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.99967;exitY=0.79402;exitPerimeter=1;entryX=0.12412;entryY=0.00000;entryPerimeter=1;curved=0;" target="Configuracao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_19" edge="1" parent="1" source="Provisionador" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.65757;exitY=1.00000;exitPerimeter=1;entryX=0.29873;entryY=0.00000;entryPerimeter=1;curved=0;" target="Auditoria" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_20" edge="1" parent="1" source="Provisionador" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.22425;exitY=1.00000;exitPerimeter=1;entryX=0.78634;entryY=0.00000;entryPerimeter=1;curved=0;" target="Ambiente" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_21" edge="1" parent="1" source="Ambiente" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.05417;exitY=0.99998;exitPerimeter=1;entryX=0.74963;entryY=0.00000;entryPerimeter=1;curved=0;" target="MaquinaVirtual" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_22" edge="1" parent="1" source="Ambiente" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.51235;exitY=0.99994;exitPerimeter=1;entryX=0.48231;entryY=0.00000;entryPerimeter=1;curved=0;" target="Armazenamento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_23" edge="1" parent="1" source="Ambiente" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.34241;exitY=0.99994;exitPerimeter=1;entryX=0.69475;entryY=0.00000;entryPerimeter=1;curved=0;" target="Fila" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_24" edge="1" parent="1" source="Main" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.16941;exitY=1.00000;exitPerimeter=1;entryX=0.82980;entryY=0.00000;entryPerimeter=1;curved=0;" target="Provisionador" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_25" edge="1" parent="1" source="Main" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.64387;exitPerimeter=1;entryX=0.46755;entryY=0.00000;entryPerimeter=1;curved=0;" target="FabricaAws" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_26" edge="1" parent="1" source="Main" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.91795;exitPerimeter=1;entryX=1.00000;entryY=0.48078;entryPerimeter=1;curved=0;" target="FabricaAzure" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_27" edge="1" parent="1" source="Main" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.47443;exitY=1.00000;exitPerimeter=1;entryX=0.53344;entryY=0.00000;entryPerimeter=1;curved=0;" target="Auditoria" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_28" edge="1" parent="1" source="Main" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.65827;exitY=1.00000;exitPerimeter=1;entryX=0.24824;entryY=0.00000;entryPerimeter=1;curved=0;" target="Configuracao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
